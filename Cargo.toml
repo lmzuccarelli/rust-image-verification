@@ -13,6 +13,8 @@ sha256 = "1.5.0"
 futures = "0.3"
 tokio = { version = "1.38.0", features= ["full"] }
 tokio-macros = "2.3.0"
+clap_derive = { version = "4.0.0-rc.1" }
+clap = { version = "4.5.6", features = ["derive"] }
 
 
 [profile.release]
